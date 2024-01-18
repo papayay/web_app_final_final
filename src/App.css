@@ -1,0 +1,66 @@
+/* App.css */
+.button {
+    background-color: #262954; /* 背景 */
+    color: white; /* 白色文字 */
+    padding: 15px 32px; /* 內邊距 */
+    text-align: center; /* 文字置中 */
+    text-decoration: none; /* 去除底線 */
+    display: inline-block; /* 顯示為行內塊元素 */
+    font-size: 60px; /* 字體大小 */
+    margin: 20px 20px; /* 外邊距 */
+    cursor: pointer; /* 鼠標懸停時顯示指標 */
+    border: none; /* 去除邊框 */
+    border-radius: 100px; /* 圓角邊框 */
+  }
+  
+  .button:hover {
+    background-color: #c01988; /* 懸浮時的背景顏色變化 */
+  }
+  
+/* App.css 或其他 CSS 文件 */
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* 从顶部开始排列，而不是居中 */
+  height: 100vh; /* 使用视口高度让容器填满整个屏幕 */
+  margin-top: 200px; /* 您可以根据需要调整这个值 */
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* 按钮之间的间隙 */
+}
+.button {
+  margin: 50px; /* 为按钮添加一些外边距 */
+  /* 其他按钮样式 */
+}
+
+
+/* styles.css */
+.find-people-mess-card {
+  background: rgba(255, 255, 255, 0.1); /* 半透明背景 */
+  border-radius: 10px;
+  padding: 20px;
+  color: white; /* 白色文本 */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  color: white; /* 白色标签 */
+}
+
+.input-field {
+  background: rgba(255, 255, 255, 0.2); /* 输入框半透明背景 */
+  border: 1px solid #ffffff; /* 白色边框 */
+  border-radius: 5px;
+  color: white;
+}
+
+
+
